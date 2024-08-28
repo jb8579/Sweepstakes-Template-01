@@ -1,0 +1,544 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+body {
+  background-color: #15152c !important;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* --------------------------------
+  Home Start
+----------------------------------- */
+.home-content{
+  background-image: url('../images/banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  background-position: center;
+  border-radius: 30px;
+  padding: 10px 20px 30px 20px;
+}
+
+.home-content::before{
+  content: '';
+  position: absolute;
+  background-color: #111532c5;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+
+.home-content > img{
+  width: 180px;
+  height: auto;
+}
+
+.home-content > h1{
+  font-family: "Noto Serif", serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 36px;
+  word-spacing: 1.2px;
+  line-height: 60px;
+  padding: 0px;
+}
+
+.home-content > p{
+  font-family: "Noto Serif", serif;
+  color: #dfdfdf;
+  font-weight: 400;
+  font-size: 16px;
+  word-spacing: 1.4px;
+  letter-spacing: 0.2px;
+  line-height: 28px;
+}
+/* ------------------------------------
+  Home End
+--------------------------------------- */
+
+
+
+/* ------------------------------
+  Trust Start
+--------------------------------- */
+.trust-bar { 
+  padding-top: 25px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.trust-description{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.trust-description > img{
+  width: 22px;
+  height: auto;
+}
+
+.trust-description > p {
+  font-size: 17px;
+  font-weight: 500;
+  padding: 3px;
+  font-family: "Tajawal", sans-serif;
+  margin-bottom: 0px !important;
+}
+
+.trust-content-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+.trust-bar-date > p{
+  font-size: 17px;
+  font-weight: 500;
+  font-family: "Tajawal", sans-serif;
+  margin-bottom: 0px !important;
+}
+/* -------------------------------
+  Trust End
+--------------------------------- */
+
+
+
+/* --------------------------------
+  Top List Start
+----------------------------------- */
+.top-list-section{
+  padding: 20px 0px;
+}
+
+.top-list-card {
+  border-radius: 20px;
+  padding: 0px 25px 0px 25px;
+  margin: 0 15px 15px 15px;
+  background-color: #fff;
+  box-shadow: 0px 5px 14px 5px rgba(0, 0, 0, 0.103);
+  transition: all 0.5s ease-in-out;
+}
+
+.brand-name-border {
+  border-right: 1px solid #80808038;
+}
+
+.brand-name-border-2{
+  border-right: 1px solid #80808038;
+}
+
+.top-listing {
+  width: 44px;
+  height: 30px;
+  background-color: #FF8C00;
+  z-index: 10;
+  box-shadow: 0px 1px 2px 0px rgb(0 0 0 / 15%);
+  position: relative;
+  right: 0;
+  left: -25px;
+  display: block;
+  top: -129px;
+  border-top-left-radius: 14px;
+  clip-path: polygon(0 0, 100% 0%, calc(100% - 8px) 100%, 0% 100%);
+}
+
+.top-listing span {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  padding: 6px 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1em;
+  color: #fff;
+}
+
+.brand-logo {
+  top: 15px;
+  text-align: center;
+  position: relative;
+}
+
+.brand-logo > a > img{
+  width: 180px;
+  height: 60px;
+}
+
+.top-list-bonus {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-40px);
+}
+
+p.top-bonus-p-middle {
+  font-size: 32px;
+  margin: 0px;
+  color: #1b1b1b;
+  font-weight: 900;
+  word-spacing: 1.8px;
+  font-family: "Tajawal", sans-serif;
+  letter-spacing: -1px;
+  line-height: 38px;
+}
+
+p.top-bonus-p-bottom {
+  font-size: 16px !important;
+  margin-bottom: 0px !important;
+  word-spacing: 1.8px;
+  font-weight: 600;
+  color: #464545;
+  font-family: "Tajawal", sans-serif;
+  letter-spacing: -0.4px;
+  margin-top: 5px;
+}
+
+.top-rating-p{
+  padding: 20px 0px;
+}
+
+.brand-score {
+  text-align: center;
+  top: 24px;
+  position: relative;
+}
+
+.brand-score > h2 {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 900;
+  font-size: 28px;
+  color: #2e2e2e;
+  margin: -4px 0px;
+}
+
+.brand-score > img{
+  width: 85px;
+  height: auto;
+}
+
+.brand-score > p{
+  font-family: "Tajawal", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  margin: -2px 0px;
+}
+
+.button-area {
+  text-align: center;
+  position: relative;
+  transform: translateY(40px);
+}
+
+.top-list-btn > a > button {
+  background: #8A2BE2;
+  font-size: 20px;
+  line-height: 1.25em;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 16px 44px;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  border: 0px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 0.4px;
+  font-family: "Tajawal", sans-serif;
+  box-shadow: 0px 10px 15px 0px rgba(137, 43, 226, 0.253);
+}
+
+.top-list-btn > a > button:hover {
+  background-color: #4d1185 !important;
+  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.top-list-TC > a > p {
+  color: #757373;
+  font-size: 10px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  text-decoration: underline #818181;
+  transition: all 0.5s ease-in-out;
+}
+
+.top-list-TC > a > p:hover {
+  color: #FF8C00;
+  text-decoration: underline #FF8C00;
+}
+
+.top-list-p-center > P {
+  font-size: 12px;
+  font-family: "Tajawal", sans-serif;
+  color: rgb(145 145 145);
+  padding: 8px 0px;
+  border-top: 1px solid #80808038;
+}
+/* --------------------------------
+    Top List Section End
+----------------------------------- */
+
+
+
+/* --------------------------------
+	Particle JS Container Start
+---------------------------------- */
+#particles-js { 
+	position: absolute;  
+	height: 100%;
+	width: 100%;
+	top: 0; 
+	left: 0;
+	pointer-events: none;
+  z-index: 999;
+} 
+/* --------------------------------
+	Particle JS Container End
+---------------------------------- */
+
+
+
+/* --------------------------------
+  List-description-section Start
+----------------------------------- */
+.list-description-section{
+  padding: 20px 0px;
+}
+
+.list-context{
+  padding: 0px 25px;
+}
+
+.list-context > h2{
+  font-family: "Noto Serif", serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 28px;
+  word-spacing: 1.2px;
+  line-height: 32px;
+}
+
+.list-context > h5{
+  font-family: "Noto Serif", serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 28px;
+  word-spacing: 1.2px;
+  line-height: 32px;
+  padding-top: 25px;
+  padding-bottom: 12px;
+}
+
+.list-context > p{
+  font-family: "Noto Serif", serif;
+  color: #d8d6d6;
+  font-weight: 400;
+  font-size: 16px;
+  word-spacing: 1.4px;
+  line-height: 28px;
+}
+
+.list-context > p > a{
+  font-family: "Noto Serif", serif;
+  color: #d8d6d6;
+}
+
+.list-context > ul > li{
+  font-family: "Noto Serif", serif;
+  color: #d8d6d6;
+  font-weight: 400;
+  font-size: 16px;
+  word-spacing: 1.4px;
+  line-height: 28px;
+}
+/* ------------------------------------
+  List-description-section End
+--------------------------------------- */
+
+
+
+
+/* -------------------------------
+  Footer Start
+----------------------------------- */
+.footer {
+  background: #1b1a30;
+  text-align: center;
+  position: relative;
+  bottom: -20px;
+  padding: 30px 0px 5px 0px;
+}
+
+img.footer-logo{
+  width: 160px;
+  height: auto;
+  padding-bottom: 15px;
+}
+
+p.footer-p-a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ebebeb;
+  line-height: 27px;
+  font-family: "Tajawal", sans-serif;
+}
+
+p.footer-p-note {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ebebeb;
+  line-height: 27px;
+  font-family: "Tajawal", sans-serif;
+}
+
+p.footer-p-a > a{
+  color: #ffffff !important;
+  text-decoration: underline;
+}
+
+p.footer-p-a > a:hover {
+  color: #FF8C00 !important;
+  text-decoration: underline;
+}
+
+.footer-c{
+  padding-top: 12px;
+  border-top: 1px solid rgba(220, 220, 220, 0.199);
+}
+
+p.footer-copyright {
+  color: #ffffff !important;
+  font-size: 15px !important;
+  letter-spacing: 0.2px;
+  margin-top: 30px;
+  font-weight: 500;
+  font-family: "Tajawal", sans-serif;
+}
+
+p.footer-copyright > a{
+  color: #ffffff !important;
+  font-family: "Tajawal", sans-serif;
+}
+
+p.footer-copyright > a:hover{
+  color: #FF8C00 !important;
+}
+
+.footer-cp-bg {
+  padding: 40px 0px;
+  position: relative;
+  bottom: -15px;
+}
+
+.footer-txt > h2 {
+  font-size: 38px;
+  font-weight: 700;
+  color: #1a1a1ae5;
+  letter-spacing: 0.4px;
+  word-spacing: 1px;
+  text-transform: uppercase;
+  font-family: "Hind", sans-serif !important;
+}
+
+.page-content > h5{
+  font-size: 26px;
+  font-weight: 700;
+  color: #1a1a1ae5;
+  letter-spacing: 0.4px;
+  word-spacing: 1px;
+  margin: 5px 0px 0px 0px;
+  font-family: "Hind", sans-serif !important;
+}
+
+.page-content > p{
+  font-size: 15px;
+  font-weight: 400;
+  color: #1a1a1ae5;
+  padding: 15px 0px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  padding: 12px 0px;
+}
+
+.page-content > p > a{
+  color: #1a1a1ae5 !important;
+}
+
+.page-content > p > a:hover{
+  color: #FF8C00 !important;
+}
+/* -------------------------------
+  Footer End
+---------------------------------- */
+
+
+
+/* --------------------------------
+  Bonus Start
+----------------------------------- */
+.bonus-section{
+  padding: 60px 0px 30px 0px;
+}
+
+.bonus-content {
+  background-color: #0e0e28;
+  padding: 20px 10px 0px 10px;
+  margin: 0px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 300px;
+  gap: 40px;
+}
+
+.bonus-img > img {
+  position: relative;
+  top: -50px;
+}
+
+.bonus-context > h2{
+  font-family: "Noto Serif", serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 40px;
+  word-spacing: 1.2px;
+  line-height: 55px;
+}
+
+.bonus-context > p{
+  font-family: "Noto Serif", serif;
+  color: #d8d6d6;
+  font-weight: 400;
+  font-size: 16px;
+  word-spacing: 1.4px;
+  line-height: 28px;
+  padding-top: 10px;
+}
+/* ------------------------------------
+  Bonus End
+--------------------------------------- */
