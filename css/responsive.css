@@ -76,26 +76,21 @@
 
     .top-list-card {
         padding: 0px 15px 0px 15px;
-        height: 235px;
     }
 
     .brand-area {
-        padding: 20px 0px;
+        padding: 0px;
         justify-content: flex-start;
         gap: 8px;
+    }
+
+    .top-listing {
+        transform: translate(-15px, -153px);
     }
 
     .brand-name > a > h2 {
         font-size: 22px;
         line-height: 30px;
-    }
-
-    .top-listing {
-        position: relative;
-        right: 0;
-        left: -15px;
-        display: flex;
-        top: -160px;
     }
 
     .brand-logo > a > img {
@@ -104,12 +99,14 @@
     }
 
     .brand-logo {
-        top: 0px;
+        top: 15px;
+        padding: 0px;
+        position: relative;
     }
 
     .top-list-bonus {
         text-align: center;
-        padding: 15px 0px;
+        padding: 40px 0px;
         position: relative;
         right: 50%;
         transform: translate(-100px, 12px);
@@ -117,20 +114,29 @@
     }
 
     .top-list-bonus.top-list-bonus-sm {
-        transform: translate(80px, -100px);
+        transform: translate(-100px, -60px);
+        padding-bottom: 65px;
+    }
+
+    .brand-score {
+        text-align: center;
+        top: 24px;
+        position: relative;
+        left: 50%;
+        transform: translate(100px, -30px);
+        top: 50%;
     }
     
     p.top-bonus-p-middle {
-        font-size: 22px;
-        font-weight: 800;
+        font-size: 23px;
         word-spacing: 0px;
-        padding: 8px 0px;
-        line-height: 25px;
+        padding: 0px;
+        line-height: 22px;
     }
 
     .brand-score > h2 {
-        font-size: 34px;
-        margin: -8px 0px;
+        font-size: 40px;
+        margin: 5px 0px;
     }
 
     .top-rating-p.top-rating-sm {
@@ -167,12 +173,17 @@
         transform: translateX(-130px);
     }
 
+    .brand-score > img {
+        width: 100px;
+        height: auto;
+    }
+
     .button-area {
         text-align: center;
         padding: 0px;
         position: absolute;
         left: 50%;
-        transform: translate(30px, -52px);
+        transform: translate(30px, -66px);
     }
 
     .top-list-btn > a > button {
@@ -186,6 +197,8 @@
 
     .top-list-p-center > P {
         font-size: 10px;
+        color: #696767;
+        line-height: 12px;
     }
     /* ------------------------------
         List End
@@ -234,12 +247,12 @@
     }
 
     p.top-bonus-p-bottom {
-        font-size: 14px !important;
+        font-size: 16px !important;
         margin-bottom: 0px !important;
         word-spacing: 0px;
         letter-spacing: -0.2px;
-        margin-top: 4px;
-        line-height: 16px;
+        margin-top: 14px;
+        line-height: 18px;
     }
 
     .list-context.list-overflow {
@@ -347,7 +360,6 @@
 
     .top-list-card {
         padding: 0px 15px 0px 15px;
-        height: 235px;
     }
 
     .brand-area {
@@ -361,14 +373,6 @@
         line-height: 30px;
     }
 
-    .top-listing {
-        position: relative;
-        right: 0;
-        left: -15px;
-        display: flex;
-        top: -148px;
-    }
-
     .brand-logo > a > img {
         width: 100%;
         height: auto;
@@ -380,23 +384,27 @@
 
     .top-list-bonus {
         text-align: center;
-        padding: 15px 0px;
+        padding: 40px 0px;
         position: relative;
         right: 50%;
         transform: translate(-100px, 12px);
         top: 50%;
     }
 
+    .brand-score {
+        transform: translate(88px, -10px);
+    }
+
     .top-list-bonus.top-list-bonus-sm {
-        transform: translate(70px, -100px);
+        transform: translate(-88px, -75px);
     }
     
     p.top-bonus-p-middle {
-        font-size: 19px;
+        font-size: 22px;
         font-weight: 800;
         word-spacing: 0px;
-        padding: 8px 0px;
-        line-height: 25px;
+        padding: 0px;
+        line-height: 23px;
     }
 
     .brand-score > h2 {
@@ -405,7 +413,7 @@
     }
 
     p.top-bonus-p-bottom {
-        font-size: 12px !important;
+        font-size: 14px !important;
     }
 
     .top-rating-p.top-rating-sm {
@@ -447,7 +455,11 @@
         padding: 0px;
         position: absolute;
         left: 50%;
-        transform: translate(22px, -42px);
+        transform: translate(22px, -80px);
+    }
+
+    .top-listing {
+        transform: translate(-15px, -150px);
     }
 
     .top-list-btn > a > button {
