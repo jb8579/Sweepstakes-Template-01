@@ -153,7 +153,7 @@ body {
 }
 
 .top-listing {
-  width: 44px;
+  width: 50px;
   height: 30px;
   background-color: #FF8C00;
   z-index: 10;
@@ -162,19 +162,19 @@ body {
   display: block;
   border-top-left-radius: 14px;
   clip-path: polygon(0 0, 100% 0%, calc(100% - 8px) 100%, 0% 100%);
-  transform: translate(-25px, -153px);
+  transform: translate(-25px, -10px);
 }
 
 .top-listing span {
   position: absolute;
   display: inline-block;
-  width: 40px;
-  padding: 6px 0;
   text-align: center;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 1em;
+  font-size: 20px;
+  line-height: normal;
   color: #fff;
+  left: 18px;
+  top: 4px;
 }
 
 .brand-logo {
